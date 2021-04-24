@@ -6,14 +6,14 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 * great for Pro users with the technical background
 * Ideal for a quick & dirty backup solution when you don't want to waste hard drive space (all it does is simply replication)
 * Better option over OneDrive/iCloud Drive when you have large or multiple files
-* Files are __NOT ENCRYPTED__ by default. Keep this in mind.
+* Files are __NOT ENCRYPTED__ by default. Keep this in mind. <br />
 
 1. Create the backup config file
 * Download and run the Backup "Config.jar" file.
 * Under "Destination", Click on "Browse" to select a destination for all your backups. This can be a 2nd hard drive on your computer or a folder on a NAS
 * Under "Sources", You can either click on "Browse" or type in a directory below and click "Add" to add all the sources that you would like to replicate and back up your data from. __Please Ensure__ that none of your sources have the same folder name. The destination will have a Folder for EACH Source with the same name.
 * When ready, click "Save" at the bottom to save the config file.
-![1_setupGui](https://user-images.githubusercontent.com/8682684/115966424-7ca70800-a4fb-11eb-8175-8c5d8735036d.JPG)
+![1_setupGui](https://user-images.githubusercontent.com/8682684/115966424-7ca70800-a4fb-11eb-8175-8c5d8735036d.JPG) <br />
 
 
 
