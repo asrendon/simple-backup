@@ -16,14 +16,19 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 ![1_setupGui](https://user-images.githubusercontent.com/8682684/115966424-7ca70800-a4fb-11eb-8175-8c5d8735036d.JPG)
 
 
+
+
 2. Test the script
-For Windows Users:
+   1. For Windows Users:
 * Download the "simple_backup_win.ps1" script file.
 * Open Powershell and navigate to where the script is stored using [cd "\path\to\file"]. Copy and paste from the File Explorer Window. Just put the path in between quotation marks.
 * To run the script, execute with the config file you saved earlier. Please make sure you put the path to the config file in quotations if there are spaces.
 ```
  .\simple_backup_win.ps1 "\path\to\config\file"
 ```
+![2_win_script](https://user-images.githubusercontent.com/8682684/115967333-1c669500-a500-11eb-90e5-5dbf79fa9510.JPG)
+
+
 * IF You get an Execution error, you need to enable powershell execution.
   * Right Click the Start Button and select "Windows PowerShell (Admin)" and Run the following:
 ```
@@ -33,7 +38,9 @@ set-executionpolicy remotesigned
 
   
   
-  For Mac and Linux Users: Coming Soon
+   2. For Mac and Linux Users: Coming Soon
+
+
   
 3. Set up automated backup: Coming Soon
 
