@@ -6,7 +6,10 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 * great for Pro users with the technical background
 * Ideal for a quick & dirty backup solution when you don't want to waste hard drive space (all it does is simply replication)
 * Better option over OneDrive/iCloud Drive when you have large or multiple files
-* Files are __NOT ENCRYPTED__ by default. Keep this in mind. <br />
+* Files are __NOT ENCRYPTED__ by default. Keep this in mind.
+
+&nbsp;
+&nbsp;
 
 1. Create the backup config file
 * Download and run the Backup "Config.jar" file.
@@ -16,7 +19,7 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 ![1_setupGui](https://user-images.githubusercontent.com/8682684/115966424-7ca70800-a4fb-11eb-8175-8c5d8735036d.JPG) <br />
 
 
-
+&nbsp;
 
 2. Test the script
    1. For Windows Users:
@@ -40,7 +43,7 @@ set-executionpolicy remotesigned
   
    2. For Mac and Linux Users: Coming Soon
 
-
+&nbsp;
   
 3. Set up automated backup: Coming Soon
 
