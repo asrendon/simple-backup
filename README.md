@@ -11,7 +11,7 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 &nbsp;
 &nbsp;
 
-1. Create the backup config file
+# 1. Create the backup config file
 * Download and run the Backup "Config.jar" file.
 * Under "Destination", Click on "Browse" to select a destination for all your backups. This can be a 2nd hard drive on your computer or a folder on a NAS
 * Under "Sources", You can either click on "Browse" or type in a directory below and click "Add" to add all the sources that you would like to replicate and back up your data from. __Please Ensure__ that none of your sources have the same folder name. The destination will have a Folder for EACH Source with the same name.
@@ -21,7 +21,7 @@ The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 
 &nbsp;
 
-2. Test the script
+# 2. Test the script
    1. For Windows Users:
 * Download the "simple_backup_win.ps1" script file.
 * Open Powershell and navigate to where the script is stored using [cd "\path\to\file"]. Copy and paste from the File Explorer Window. Just put the path in between quotation marks.
@@ -45,7 +45,8 @@ set-executionpolicy remotesigned
 
 &nbsp;
   
-3. Set up automated backup: Coming Soon
+# 3. Set up automated backup: Coming Soon
+
 
 The JSON config file is used to store the directories where you are backing up to "destination" and the locations you are backing up from "sources". This tool is essentially for maintaining a synchronization of your files on a backup drive, much cleaner than using the OS's built in tools. Useful for when you have many different local directories you want backed up on your local machine.
 For Windows users, the PowerShell script uses this JSON file to iterate through a RoboCopy command.
