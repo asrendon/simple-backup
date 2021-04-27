@@ -56,6 +56,7 @@ class ConfigWindow{
     private File jsonDir;
     private ObservableList<String> srcList;
     private Stage stage;
+    final String version="v1.0 https://github.com/Uv-Grade/simple-backup";
     
     ConfigWindow(){
         //inits
@@ -148,7 +149,7 @@ class ConfigWindow{
         saveC.setOnAction(value -> { saveJson(destField,srcView);});
         openC.setOnAction(value -> { loadJson(destField,srcView);});
         
-        Label info= new Label("v1.0 github.com");
+        Label info= new Label(version);
         app.getChildren().addAll(titleRow,grid,info);
         
         var scene = new Scene(app, 400, 400);
