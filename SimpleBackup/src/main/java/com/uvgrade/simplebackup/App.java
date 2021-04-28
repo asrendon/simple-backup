@@ -52,7 +52,7 @@ public class App extends Application {
 }
 
 class ConfigWindow{
-    final int btnSize=60;
+    final int btnSize=70;
     private File jsonDir;
     private ObservableList<String> srcList;
     private Stage stage;
@@ -152,7 +152,8 @@ class ConfigWindow{
         Label info= new Label(version);
         app.getChildren().addAll(titleRow,grid,info);
         
-        var scene = new Scene(app, 400, 400);
+        Scene scene = new Scene(app, 400, 400);
+        scene.getStylesheets().add(getClass().getResource("app.css").toExternalForm());
         stage.setScene(scene);
         stage.setTitle("Backup Config Editor");
         stage.show();
