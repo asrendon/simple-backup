@@ -1,5 +1,5 @@
 $config_loc=$args[0]
-$debug=1
+$debug=0
 
 $fail=@()
 
@@ -22,12 +22,12 @@ if(!$config_loc){
 }
 
 
-#try{
+try{
     
     Path-Check -loc $config_loc -name "Config File"
     $obj= Get-Content $config_loc | ConvertFrom-Json
     Path-Check -loc $obj.destination -name "Destination"
-    $b=$obj.sources | select –unique
+    $b=$obj.sources | select ï¿½unique
 
 
 
@@ -55,7 +55,7 @@ if(!$config_loc){
         $dest="$($obj.destination)\$leaf"
 
         try{
-            robocopy $src $dest /MIR /FFT /Z /XA:H /W:5
+            robocopy $src $dest /COPY:DT /e /FFT /XJ /Z /XA:HST /W:5
         }catch{
             $pass=0
             $fail+=$src
@@ -81,8 +81,8 @@ if(!$config_loc){
         }
     }
     
-#}catch {
-#    write-output "Invalid JSON File or JSON errors"
-#}
+}catch {
+    write-output "Invalid JSON File or JSON errors"
+}
 
 
