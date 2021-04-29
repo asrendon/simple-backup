@@ -1,6 +1,7 @@
 # Simple Backup
 
-_still in beta. config files work well, just completing the the GUI tool. For now, you need to run this using NetBeans and Java 11_
+Use at your own risk please, do extra backups if you have any doubts.
+https://youtu.be/esxYBJUe38k
 
 The EASIEST Tool for Backup/File Sync for Mac/PC/Linux:
 * great for Pro users with the technical background
